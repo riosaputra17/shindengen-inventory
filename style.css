@@ -29,6 +29,8 @@ li {
   --light-yellow: #fff2c6;
   --orange: #fd7238;
   --light-orange: #ffe0d3;
+  --green: #79d26b;
+  --light-green: #086217;
 }
 
 html {
@@ -370,12 +372,12 @@ body {
   color: var(--blue);
 }
 #content main .box-info li:nth-child(2) .bx {
-  background: var(--light-yellow);
-  color: var(--yellow);
-}
-#content main .box-info li:nth-child(3) .bx {
   background: var(--light-orange);
   color: var(--orange);
+}
+#content main .box-info li:nth-child(3) .bx {
+  background: var(--green);
+  color: var(--light-green);
 }
 #content main .box-info li .text h3 {
   font-size: 24px;
@@ -426,17 +428,19 @@ body {
 #content main .table-data .order table th {
   padding-bottom: 12px;
   font-size: 13px;
-  text-align: left;
+  text-align: center;
   border-bottom: 2px solid var(--grey);
 }
 #content main .table-data .order table td {
   padding: 16px 0;
+  text-align: center;
+  font-size: 13px;
 }
 #content main .table-data .order table tr td:first-child {
   display: flex;
   align-items: center;
   grid-gap: 12px;
-  padding-left: 6px;
+  padding-left: 16px;
 }
 
 #content main .table-data .order table tbody tr:hover {
@@ -459,35 +463,6 @@ body {
   background: var(--orange);
 }
 
-#content main .table-data .todo {
-  flex-grow: 1;
-  flex-basis: 300px;
-}
-#content main .table-data .todo .todo-list {
-  width: 100%;
-}
-#content main .table-data .todo .todo-list li {
-  width: 100%;
-  margin-bottom: 16px;
-  background: var(--grey);
-  border-radius: 10px;
-  padding: 14px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#content main .table-data .todo .todo-list li .bx {
-  cursor: pointer;
-}
-#content main .table-data .todo .todo-list li.completed {
-  border-left: 10px solid var(--blue);
-}
-#content main .table-data .todo .todo-list li.not-completed {
-  border-left: 10px solid var(--orange);
-}
-#content main .table-data .todo .todo-list li:last-child {
-  margin-bottom: 0;
-}
 /* MAIN */
 /* CONTENT */
 
