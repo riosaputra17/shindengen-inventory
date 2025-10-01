@@ -30,10 +30,10 @@
   font-size: 13px;
 }
 
-/* GRID: 3 columns desktop, 2 tablet, 1 mobile */
+/* GRID: 4 columns desktop, 2 tablet, 1 mobile */
 .form-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px 20px;
   align-items: end;
 }
@@ -41,6 +41,17 @@
 .form-group {
   display: flex;
   flex-direction: column;
+}
+
+.form-group .detail {
+  width: 400px;
+}
+
+.keterangan-group {
+  grid-column: span 2; /* lebar 2 kolom */
+}
+.keterangan-group input {
+  width: 100%; /* isi penuh */
 }
 
 .form-group label {
