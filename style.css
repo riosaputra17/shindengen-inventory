@@ -80,8 +80,30 @@ body {
   box-sizing: content-box;
 }
 
+#sidebar.hide .full-logo {
+  display: none;
+}
+
+#sidebar.hide .icon-logo {
+  padding-top: 20px;
+  display: block;
+  width: 40px;
+}
+
+.icon-logo {
+  display: none; /* default tersembunyi */
+  width: 10px;
+  height: auto;
+  margin: 10px auto;
+}
+
+.full-logo {
+  width: 140px;
+  height: auto;
+  padding-top: 20px;
+}
 .brand .logo {
-  max-height: 120px;
+  max-height: 150px;
   width: auto;
 }
 #sidebar .brand .bx {
@@ -309,6 +331,7 @@ body {
   justify-content: space-between;
   grid-gap: 16px;
   flex-wrap: wrap;
+  padding-left: 10px;
 }
 #content main .head-title .left h1 {
   font-size: 36px;

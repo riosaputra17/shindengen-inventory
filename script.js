@@ -11,12 +11,21 @@ allSideMenu.forEach((item) => {
   });
 });
 
-// TOGGLE SIDEBAR
+// TOGGLE SIDEBAR MANUAL
 const menuBar = document.querySelector("#content nav .bx.bx-menu");
 const sidebar = document.getElementById("sidebar");
 
 menuBar.addEventListener("click", function () {
   sidebar.classList.toggle("hide");
+});
+
+// AUTO TOGGLE DENGAN POINTER
+sidebar.addEventListener("mouseenter", function () {
+  sidebar.classList.remove("hide"); // buka saat pointer masuk
+});
+
+sidebar.addEventListener("mouseleave", function () {
+  sidebar.classList.add("hide"); // tutup saat pointer keluar
 });
 
 const searchButton = document.querySelector(
