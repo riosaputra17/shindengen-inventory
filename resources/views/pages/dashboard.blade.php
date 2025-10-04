@@ -37,7 +37,7 @@
               <th>Item Number</th>
               <th>Search Name</th>
               <th>Balance</th>
-              <th>Identitas</th>
+              <th>Status</th>
               <th>Take-Out</th>
             </tr>
           </thead>

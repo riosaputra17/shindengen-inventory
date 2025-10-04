@@ -45,7 +45,7 @@
       </a>
     </li>
     <li>
-      <a href="{{ url('/settings') }}">
+      <a href="{{ url('/log-activity') }}">
         <i class="bx bxs-cog"></i>
         <span class="text">Log Activity</span>
       </a>

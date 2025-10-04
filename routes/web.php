@@ -17,6 +17,10 @@ Route::get('/material-out', function () {
 
 Route::get('/stock-balance', [StockBalanceController::class, 'index'])->name('stock-balance.index');
 
+Route::get('/reports', function () {
+    return view('pages.reports');
+});
+
 Route::get('/settings', function () {
     return view('pages.settings');
 });

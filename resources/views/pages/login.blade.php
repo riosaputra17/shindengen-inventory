@@ -23,7 +23,7 @@
           </div>
           <button type="submit" class="login-btn">Login</button>
           <p class="register-text">
-            Belum punya akun? <a href="#">Register</a>
+            Production Sistem Management
           </p>
         </form>
       </div>
