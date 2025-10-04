@@ -45,6 +45,12 @@
       </a>
     </li>
     <li>
+      <a href="{{ url('/settings') }}">
+        <i class="bx bxs-cog"></i>
+        <span class="text">Log Activity</span>
+      </a>
+    </li>
+    <li>
       <a href="{{ url('/logout') }}" class="logout">
         <i class="bx bxs-log-out-circle"></i>
         <span class="text">Logout</span>

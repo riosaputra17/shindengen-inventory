@@ -33,8 +33,8 @@
               <th>No</th>
               <th>Type</th>
               <th>No-Lot</th>
-              <th>Tanggal</th>
-              <th>Kode Gudang</th>
+              <th>Date</th>
+              <th>Item Number</th>
               <th>Search Name</th>
               <th>Balance</th>
               <th>Identitas</th>
