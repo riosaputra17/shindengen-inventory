@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\StockBalanceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -13,9 +15,7 @@ Route::get('/material-out', function () {
     return view('pages.material-out');
 });
 
-Route::get('/stock-balance', function () {
-    return view('pages.stock-balance');
-});
+Route::get('/stock-balance', [StockBalanceController::class, 'index'])->name('stock-balance.index');
 
 Route::get('/settings', function () {
     return view('pages.settings');
