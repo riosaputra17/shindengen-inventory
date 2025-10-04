@@ -45,13 +45,6 @@
                 placeholder="Contoh: SH8667A"
                 required
               />
-              <!-- 
-              <h1>QR / Barcode Scanner</h1>
-
-              <button onclick="startScanner()">📷 Scan QR / Barcode</button>
-
-              <div id="reader"></div>
-              <div id="result"></div> -->
             </div>
 
             <div class="form-group">
@@ -113,23 +106,25 @@
 
             <!-- row 3 -->
             <div class="form-group">
-              <label for="status">Status</label>
+              <label for="status">Category</label>
               <select id="status" name="status" required>
-                <option value="">-- Pilih Status --</option>
-                <option value="ok">OK</option>
-                <option value="ng">NG</option>
+                <option value="">-- Choose Material --</option>
+                <option value="Over-Material">Over Material</option>
                 <option value="pending">Pending</option>
               </select>
             </div>
-
             <div class="form-group">
-              <label for="tanggal">Date</label>
-              <input id="tanggal" name="tanggal" type="date" required />
+              <label for="status">Status</label>
+              <select id="status" name="status" required>
+                <option value="">-- Choose Status --</option>
+                <option value="Oke">Oke</option>
+                <option value="NG">NG</option>
+              </select>
             </div>
 
             <div class="form-group keterangan-group">
               <label for="Keterangan">Description</label>
-              <input type="text" name="Keterangan" placeholder="Keterangan" />
+              <input type="text" name="Description" placeholder="Description" />
             </div>
 
             <div class="form-group">
