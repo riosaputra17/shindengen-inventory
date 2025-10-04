@@ -1,8 +1,7 @@
-@include('layouts.header', ['title' => 'Stock Balance'])
+@include('layouts.header', ['title' => 'Setting'])
 @include('layouts.sidebar')
 
 <section id="content">
   @include('layouts.navbar')
-
   
 @include('layouts.footer')

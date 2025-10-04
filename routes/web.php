@@ -17,6 +17,10 @@ Route::get('/stock-balance', function () {
     return view('pages.stock-balance');
 });
 
+Route::get('/reports', function () {
+    return view('pages.reports');
+});
+
 Route::get('/settings', function () {
     return view('pages.settings');
 });

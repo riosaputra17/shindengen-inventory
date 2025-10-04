@@ -42,7 +42,7 @@
                 id="type"
                 name="type"
                 type="text"
-                placeholder="Contoh: SH8667A"
+                placeholder="Example: SH8667A"
                 required
               />
             </div>
@@ -53,7 +53,7 @@
                 id="no_lot"
                 name="no_lot"
                 type="text"
-                placeholder="Contoh: 061"
+                placeholder="Example: 061"
                 required
               />
             </div>
@@ -63,7 +63,7 @@
                 id="no_lot"
                 name="no_lot"
                 type="text"
-                placeholder="Contoh: 061"
+                placeholder="Example: 061"
                 required
               />
             </div>
@@ -75,7 +75,7 @@
                 id="type"
                 name="type"
                 type="text"
-                placeholder="Contoh: 67782"
+                placeholder="Example: 67782"
                 required
               />
             </div>
@@ -83,7 +83,7 @@
             <div class="form-group">
               <label for="jenis_material">Material Name</label>
               <select id="jenis_material" name="jenis_material" required>
-                <option value="">-- Pilih Jenis --</option>
+                <option value="">-- Choose Material --</option>
                 <option value="connector">Connector</option>
                 <option value="case">Case</option>
                 <option value="holder">Holder</option>
@@ -99,7 +99,7 @@
                 name="qty"
                 type="number"
                 min="1"
-                placeholder="Jumlah"
+                placeholder="Quantity"
                 required
               />
             </div>
@@ -108,7 +108,7 @@
             <div class="form-group">
               <label for="status">Category</label>
               <select id="status" name="status" required>
-                <option value="">-- Choose Material --</option>
+                <option value="">-- Choose Category --</option>
                 <option value="Over-Material">Over Material</option>
                 <option value="pending">Pending</option>
               </select>
